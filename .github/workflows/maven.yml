@@ -16,6 +16,9 @@ on:
   # 在发布新版本时触发
   release:
     types: [created]
+  # 手动启动工作流
+  workflow_dispatch:
+    
 
 jobs:
   build:
